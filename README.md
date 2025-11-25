@@ -9,6 +9,7 @@
 ## 2. Quels sont les projets de la solution ?
 
 *Réponse détaillée ici, listez les noms des projets trouvés dans l'explorateur de solutions Visual Studio.*
+*La solution contient 1 projet : P2FixAnAppDotNetCode\Diayma.csproj*
 
 ---
 
