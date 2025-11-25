@@ -1,1 +1,35 @@
-# TD-C-et-Technologies-.NET-Visual-Studio-D-bogage-v2
+# Travaux Dirigés .NET - ESP UCAD
+
+**Année Universitaire :** 2025/2026
+
+**Objectif :** Familiarisation avec l'EDI, Git et GitHub, et exploration d'une application .NET.
+
+---
+
+## 2. Quels sont les projets de la solution ?
+
+*Réponse détaillée ici, listez les noms des projets trouvés dans l'explorateur de solutions Visual Studio.*
+
+---
+
+## 3. Quelle est la version SDK .NET utilisée par ces projets ?
+
+*Réponse détaillée ici. Vous pouvez trouver cette information dans le fichier `.csproj` de chaque projet ou en utilisant la commande `dotnet --version` dans le terminal si le SDK est installé.*
+
+---
+
+## 5. Quels sont les namespaces, classes et méthodes visités avant l’affichage des produits sur l’écran d’accueil de votre navigateur ?
+
+*Réponse détaillée ici. Pour trouver ces informations, vous devrez utiliser les outils de débogage ("Pas à pas détaillé", etc.) de Visual Studio ou Rider et suivre le flux d'exécution jusqu'à la vue d'accueil.*
+
+---
+
+## 6. Explorez l’application. Signalez 2 bugs trouvés ?
+
+*Réponse détaillée ici, décrivez les deux bugs que vous avez identifiés lors de l'exploration de l'application. Vous pouvez également mentionner l'avertissement relatif aux vulnérabilités NuGet que vous avez pu rencontrer.*
+
+---
+
+## Lien vers l'exécutable Windows (Tâche 7)
+
+*Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
