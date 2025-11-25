@@ -29,9 +29,15 @@
 ---
 
 
-## 5. Quels sont les namespaces, classes et méthodes visités avant l’affichage des produits sur l’écran d’accueil de votre navigateur ?
+## 5. Création du Dépôt GitHub
 
-*Réponse détaillée ici. Pour trouver ces informations, vous devrez utiliser les outils de débogage ("Pas à pas détaillé", etc.) de Visual Studio ou Rider et suivre le flux d'exécution jusqu'à la vue d'accueil.*
+*git remote remove origin*
+
+*git remote add origin https://github.com/AmadouNDIAYE-221/TD-C-et-Technologies-.NET-Visual-Studio-D-bogage-v2.git*
+
+*git branch -M main*
+
+*git push -u origin main*
 
 ---
 
