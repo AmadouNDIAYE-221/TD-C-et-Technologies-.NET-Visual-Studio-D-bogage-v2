@@ -14,7 +14,7 @@
 
 ## 3. Quelle est la version SDK .NET utilisée par ces projets ?
 
-*Réponse détaillée ici. Vous pouvez trouver cette information dans le fichier `.csproj` de chaque projet ou en utilisant la commande `dotnet --version` dans le terminal si le SDK est installé.*
+*La version SDK .NET utilisée est la version : netcoreapp2.0*
 
 ---
 
