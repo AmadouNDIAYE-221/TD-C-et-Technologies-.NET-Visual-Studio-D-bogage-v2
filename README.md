@@ -8,13 +8,13 @@
 
 ## 2. Quels sont les projets de la solution ?
 
-*La solution contient 1 projet : P2FixAnAppDotNetCode\Diayma.csproj*
+*La solution contient 1 projet : **P2FixAnAppDotNetCode\Diayma.csproj***
 
 ---
 
 ## 3. Quelle est la version SDK .NET utilisée par ces projets ?
 
-*La version SDK .NET utilisée est la version : netcoreapp2.0*
+*La version SDK .NET utilisée est la version : **netcoreapp2.0***
 
 ---
 
@@ -24,7 +24,7 @@
 
 *Mon Résultat :*
 
-*10.0.100 [C:\Program Files\dotnet\sdk]*
+**10.0.100 [C:\Program Files\dotnet\sdk]**
 
 ---
 
