@@ -22,8 +22,10 @@
 
 *dotnet --list-sdks*  
 
-*Mon Résultat :*\n
+*Mon Résultat :*
+
 *10.0.100 [C:\Program Files\dotnet\sdk]*
+
 ---
 
 
