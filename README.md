@@ -18,6 +18,14 @@
 
 ---
 
+## 4. Installation du SDK
+
+*dotnet --list-sdks*\n
+*Mon Résultat :*\n
+*10.0.100 [C:\Program Files\dotnet\sdk]*
+---
+
+
 ## 5. Quels sont les namespaces, classes et méthodes visités avant l’affichage des produits sur l’écran d’accueil de votre navigateur ?
 
 *Réponse détaillée ici. Pour trouver ces informations, vous devrez utiliser les outils de débogage ("Pas à pas détaillé", etc.) de Visual Studio ou Rider et suivre le flux d'exécution jusqu'à la vue d'accueil.*
