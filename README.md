@@ -20,7 +20,8 @@
 
 ## 4. Installation du SDK
 
-*dotnet --list-sdks*\n
+*dotnet --list-sdks*  
+
 *Mon Résultat :*\n
 *10.0.100 [C:\Program Files\dotnet\sdk]*
 ---
