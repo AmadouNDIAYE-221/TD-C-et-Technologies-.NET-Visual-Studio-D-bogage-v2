@@ -96,7 +96,7 @@ Les points d’arrêt placés dans les fichiers indiqués ont permis d’identif
 
 **Méthodes visitées :**
 
-    -ConfigureServices()
+> *-ConfigureServices()*
 
     *-Configure()*
 
