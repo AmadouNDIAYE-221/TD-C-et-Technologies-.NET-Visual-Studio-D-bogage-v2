@@ -69,9 +69,11 @@
 
 *Voici l’ordre exact observé :*
 
-### 8.1 Namespace : BoutiqueDiayma2025
+### 8.1 Starup.cs
 
-*Classe : Startup*
+**Namespace** : *BoutiqueDiayma2025*
+
+**Classe :** *Startup*
 
 **Méthodes visitées :**
 
@@ -80,3 +82,47 @@
     -Configure()
 
 *Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.*
+
+
+### 8.2 ProductController.cs
+
+**Namespace :** *BoutiqueDiayma2025.Controllers*
+
+**Classe :** *ProductController*
+
+**Méthode visitée :** *Index()*
+
+*C’est la méthode responsable de récupérer la liste des produits et de l’envoyer à la vue d’accueil*
+
+### 8.3 CartSummaryViewComponent.cs
+
+**Namespace :** *BoutiqueDiayma2025.Components*
+
+**Classe :** *CartSummaryViewComponent*
+
+**Méthode visitée :** *InvokeAsync()*
+
+*Ce composant est exécuté automatiquement par la vue d’accueil pour afficher un résumé du panier de l’utilisateur.*
+
+### 8.4 LanguageSelectorViewComponent.cs
+
+**Namespace :** *BoutiqueDiayma2025.Components*
+
+**Classe :** *LanguageSelectorViewComponent*
+
+**Méthode visitée :** *InvokeAsync()*
+
+*Ce composant détermine la langue d’affichage de l’interface avant que la vue finale soit rendue.*
+
+---
+
+Pourquoi F10/F11 n’avance plus après cette étape ?
+
+Après le LanguageSelectorViewComponent, l’exécution entre dans du code interne du framework ASP.NET Core.
+Ce code appartient aux bibliothèques Microsoft, pas à notre projet, donc les breakpoints ne se déclenchent plus et l’exécution n’affiche plus nos fichiers.
+
+Cela signifie que :
+
+➡️ Nous avons terminé le parcours du pipeline du projet avant l’affichage des produits.
+
+---
