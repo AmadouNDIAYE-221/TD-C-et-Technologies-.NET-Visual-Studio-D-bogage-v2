@@ -10,6 +10,10 @@ using Microsoft.Extensions.Options;
 using P2FixAnAppDotNetCode.Models;
 using P2FixAnAppDotNetCode.Models.Repositories;
 using P2FixAnAppDotNetCode.Models.Services;
+using Microsoft.AspNetCore.Hosting; // ajoute si nécessaire
+
+
+
 
 namespace P2FixAnAppDotNetCode
 {
@@ -57,10 +61,19 @@ namespace P2FixAnAppDotNetCode
                 // UI strings that we have localized.
                 opts.SupportedUICultures = supportedCultures;
             });
+
+
+
+
+            services.AddControllersWithViews(options =>
+            {
+                options.EnableEndpointRouting = false;
+            });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStaticFiles();
             var options = app.ApplicationServices.GetService<IOptions<RequestLocalizationOptions>>();

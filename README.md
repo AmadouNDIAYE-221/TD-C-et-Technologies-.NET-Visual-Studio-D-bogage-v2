@@ -46,8 +46,11 @@
 
 ## 6. Explorez l’application. Signalez 2 bugs trouvés ?
 
-*Réponse détaillée ici, décrivez les deux bugs que vous avez identifiés lors de l'exploration de l'application. Vous pouvez également mentionner l'avertissement relatif aux vulnérabilités NuGet que vous avez pu rencontrer.*
+*Après l'exécution de l'application DIAYMA, nous avons constaté deux bugs fonctionnels :*
 
+*Impossible de terminer la commande : le message "The Lines field is required" apparaît et bloque l’action.*
+
+*Impossible de changer la langue de l’application : l’option pour passer en espagnol ne fonctionne pas.*
 ---
 
 ## Lien vers l'exécutable Windows (Tâche 7)
