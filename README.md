@@ -57,13 +57,16 @@ La version SDK .NET utilisée est la version : **netcoreapp2.0**
 
 ## 7. Placement des Breakpoints
 
-![alt text](image.png)
 *test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
 
   
    ### a) CartSummaryViewComponent ligne 12 
-   ### b) ProductController ligne 15 
+        ![alt text](Breakpoint-CartSummaryViewComponent.png)
+
+   ### b) ProductController ligne 15
+        ![alt text](Breakpoint-ProductController.png)
+
    ### c) OrderController ligne 17 
    ### d) CartController ligne 15 
    ### e) Startup ligne 20 
