@@ -14,7 +14,7 @@ namespace P2FixAnAppDotNetCode.Components
 
         public IViewComponentResult Invoke()
         {
-            return View(_cart);
+            return View(_cart); // ← LIGNE 17 :  le breakpoint est ici ● 
         }
     }
 }

@@ -40,6 +40,10 @@
 
 *git branch -M main*
 
+*git add .*
+
+*git commit -m "Premier commit !"*
+
 *git push -u origin main*
 
 ---
@@ -56,5 +60,7 @@
 
 ## Lien vers l'exécutable Windows (Tâche 7)
 
+![alt text](image.png)
+*test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
 >>>>>>> c6cd31cbc8e63ae7d6a12db6f7457cf37007671f
