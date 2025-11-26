@@ -48,9 +48,10 @@
 
 *Après l'exécution de l'application DIAYMA, nous avons constaté deux bugs fonctionnels :*
 
-*Impossible de terminer la commande : le message "The Lines field is required" apparaît et bloque l’action.*
+*Impossible de **terminer la commande** : le message "The Lines field is required" apparaît et bloque l’action.*
 
-*Impossible de changer la langue de l’application : l’option pour passer en espagnol ne fonctionne pas.*
+*Impossible de **changer la langue de l’application** : l’option pour passer en "espagnol" ne fonctionne pas.*
+
 ---
 
 ## Lien vers l'exécutable Windows (Tâche 7)
