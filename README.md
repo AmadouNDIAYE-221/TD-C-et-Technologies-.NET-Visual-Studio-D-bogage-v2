@@ -2,7 +2,7 @@
 
 **Année Universitaire :** 2025/2026
 
-**Professur :** Dr El Hadji Ousmane Diallo
+**Professur :** Dr El Hadji Ousmane DIALLO
 
 **Etudiant :** Papa Amadou Mandiaye NDIAYE - Master 2 Génie logiciel et Systèmes d'Information
 
