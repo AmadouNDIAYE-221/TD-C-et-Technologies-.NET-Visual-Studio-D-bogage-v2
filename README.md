@@ -165,7 +165,8 @@ Pour l'ajout de la langue wolof  :
 
 -Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
 
-  `<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le Wolof -->`
+  `<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le langage Wolof -->`
+
 
 
 -Dans Models/Sevices/LanguageService.cs on ajoute la case wolof :
