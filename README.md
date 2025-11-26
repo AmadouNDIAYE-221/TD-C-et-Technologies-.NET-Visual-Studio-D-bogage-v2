@@ -163,19 +163,22 @@ Pour l'ajout de la langue wolof  :
 
 -on ajoute un fichier *Completed.wo.resx* et *index.wo.resx* au niveau du répertoire Ressources/Views/Order.
 
-Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
+-Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
 
   `<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le Wolof -->`
 
 -Dans Models/Sevices/LanguageService.cs on ajoute la case wolof :
-    case "Wolof":       //Pour le wolof
+
+    case "Wolof":      //Pour le wolof à l'instar de Français et autres 
+
     culture = "wo";
+    
     break;
 
 -Dans Startup.cs :
 
  on ajoute
- 
+
     new CultureInfo("wo")  // Pour la langue Wolof
 
 -Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour **Cart** et **Product** comme fait précédemment avec order. 
