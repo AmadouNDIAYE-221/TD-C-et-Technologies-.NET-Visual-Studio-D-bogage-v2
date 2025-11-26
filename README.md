@@ -167,13 +167,13 @@ Pour l'ajout de la langue wolof  :
 
   `<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le langage Wolof -->`
  
--Dans Models/Sevices/LanguageService.cs on ajoute la case wolof :
+-Dans ***Models/Sevices/LanguageService.cs*** on ajoute la case wolof :
 
     case "Wolof":      //Pour le wolof à l'instar de Français et autres 
     culture = "wo";
     break;
 
--Dans Startup.cs
+-Dans ***Startup.cs***
 
  on ajoute :
 
