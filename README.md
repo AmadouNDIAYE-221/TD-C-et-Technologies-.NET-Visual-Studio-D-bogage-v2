@@ -187,10 +187,11 @@ Pour que la langue wolof puisse couvrir l'intégralité de l'application.
 Plusieurs commits ont été effectués allant de l'initialisation à la soumission final du projet.  
 Ces principaux commits sont :
 
-    *git commit -m "Premier commit"*
-    *git commit -m "Mise à jour du projet : modifications des vues et du code"*
-    *git commit -m "Mise à jour du projet : modifications du fichier README"*
-    *git commit -m "Mise à jour du projet : modifications final"*
+    git commit -m "Premier commit"*
+    git commit -m "Mise à jour du projet : modifications des vues et du code"
+    git commit -m "Mise à jour du projet : modifications du fichier README"
+    git commit -m "Mise à jour du projet : modifications final"
+    Etc ...
 
 
 ### c. Lien Github
