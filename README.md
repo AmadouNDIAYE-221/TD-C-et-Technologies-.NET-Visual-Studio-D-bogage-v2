@@ -8,13 +8,13 @@
 
 ## 2. Quels sont les projets de la solution ?
 
-*La solution contient 1 projet : **P2FixAnAppDotNetCode\Diayma.csproj***
+La solution contient 1 projet : **P2FixAnAppDotNetCode\Diayma.csproj**
 
 ---
 
 ## 3. Quelle est la version SDK .NET utilisée par ces projets ?
 
-*La version SDK .NET utilisée est la version : **netcoreapp2.0***
+La version SDK .NET utilisée est la version : **netcoreapp2.0**
 
 ---
 
@@ -24,7 +24,7 @@
 
 *Mon Résultat :*
 
-**10.0.100 [C:\Program Files\dotnet\sdk]**
+***10.0.100 [C:\Program Files\dotnet\sdk]***
 
 ---
 
@@ -61,6 +61,14 @@
 *test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
 
+  
+   ### a) CartSummaryViewComponent ligne 12 
+   ### b) ProductController ligne 15 
+   ### c) OrderController ligne 17 
+   ### d) CartController ligne 15 
+   ### e) Startup ligne 20 
+
+
 ---
 
 ## 8. Namespaces, classes et méthodes visités avant l’affichage des produits
@@ -71,7 +79,7 @@
 
 *Voici l’ordre exact observé :*
 
-#### 8.1 Starup.cs
+### 8.1 Starup.cs
 
 **Namespace** : *BoutiqueDiayma2025*
 
@@ -116,15 +124,22 @@
 
 *Ce composant détermine la langue d’affichage de l’interface avant que la vue finale soit rendue.*
 
----
-
-Pourquoi F10/F11 n’avance plus après cette étape ?
-
 Après le LanguageSelectorViewComponent, l’exécution entre dans du code interne du framework ASP.NET Core.
 Ce code appartient aux bibliothèques Microsoft, pas à notre projet, donc les breakpoints ne se déclenchent plus et l’exécution n’affiche plus nos fichiers.
 
 Cela signifie que :
 
-➡️ Nous avons terminé le parcours du pipeline du projet avant l’affichage des produits.
+Nous avons terminé le parcours du pipeline du projet avant l’affichage des produits.
 
 ---
+
+## 9. Déploiment de la solution sous forme d’exécutable Windows. 
+
+
+---
+
+## 10. Lizn Drive à l'exécutable
+
+---
+
+## 11. Optionnel 

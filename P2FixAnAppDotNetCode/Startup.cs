@@ -10,7 +10,7 @@ using Microsoft.Extensions.Options;
 using P2FixAnAppDotNetCode.Models;
 using P2FixAnAppDotNetCode.Models.Repositories;
 using P2FixAnAppDotNetCode.Models.Services;
-using Microsoft.AspNetCore.Hosting; // ajoute si nécessaire
+
 
 namespace P2FixAnAppDotNetCode
 {
@@ -50,6 +50,8 @@ namespace P2FixAnAppDotNetCode
                     new CultureInfo("en"),
                     new CultureInfo("fr-FR"),
                     new CultureInfo("fr"),
+                    new CultureInfo("wo")  // Wolof
+
                 };
 
                 opts.DefaultRequestCulture = new RequestCulture("en");
