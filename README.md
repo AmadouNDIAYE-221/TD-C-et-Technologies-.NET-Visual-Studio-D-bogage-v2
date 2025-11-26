@@ -62,13 +62,17 @@ La version SDK .NET utilisée est la version : **netcoreapp2.0**
 
   
    ### a) CartSummaryViewComponent ligne 12 
-            ![alt text](Breakpoint-CartSummaryViewComponent.png)
+   ![alt text](Breakpoint-CartSummaryViewComponent.png)
 
    ### b) ProductController ligne 15
-            ![alt text](Breakpoint-ProductController.png)
+   ![alt text](Breakpoint-ProductController.png)
 
    ### c) OrderController ligne 17 
+
+
    ### d) CartController ligne 15 
+   
+   
    ### e) Startup ligne 20 
 
 
