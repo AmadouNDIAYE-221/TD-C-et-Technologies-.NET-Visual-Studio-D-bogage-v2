@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# Boutique Diayma
-=======
 # Travaux Dirigés .NET - ESP UCAD
 
 **Année Universitaire :** 2025/2026
