@@ -170,9 +170,7 @@ Pour l'ajout de la langue wolof  :
 -Dans Models/Sevices/LanguageService.cs on ajoute la case wolof :
 
     case "Wolof":      //Pour le wolof à l'instar de Français et autres 
-
     culture = "wo";
-    
     break;
 
 -Dans Startup.cs :
@@ -181,7 +179,7 @@ Pour l'ajout de la langue wolof  :
 
     new CultureInfo("wo")  // Pour la langue Wolof
 
--Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour **Cart** et **Product** comme fait précédemment avec order. 
+-Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour ***Cart*** et ***Product*** comme fait précédemment avec ***Order***. 
 Pour que le wolof puisse couvrir tout l'intégralité de l'application.
 
 
