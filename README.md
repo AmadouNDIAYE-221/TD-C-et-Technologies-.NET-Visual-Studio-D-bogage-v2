@@ -61,6 +61,8 @@
 *test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
 
+---
+
 ## 8. Namespaces, classes et méthodes visités avant l’affichage des produits
 
 *En lançant le débogage avec F5, j’ai suivi l’exécution de l’application à l’aide des touches F10 (Step Over) et F11 (Step Into).*
@@ -69,7 +71,7 @@
 
 *Voici l’ordre exact observé :*
 
-### 8.1 Starup.cs
+##### 8.1 Starup.cs
 
 **Namespace** : *BoutiqueDiayma2025*
 
