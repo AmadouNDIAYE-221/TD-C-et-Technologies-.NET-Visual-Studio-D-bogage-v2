@@ -143,7 +143,7 @@ Nous avons terminé le parcours du pipeline du projet avant l’affichage des pr
 ---
 
 ## 9. Déploiment de la solution sous forme d’exécutable Windows. 
-Pour déployer le projet et avoir l'exécutable. On clique sur ***Générer*** puis sur ***Publier Diayma*** sans oublier de définir l'emplacement et l'architecture du système cible *"**Winx64**"*
+Dans Visual Studio 2026, pour déployer le projet et avoir l'exécutable. On clique sur ***Générer*** puis sur ***Publier Diayma*** sans oublier de définir l'emplacement et l'architecture du système cible *"**Winx64**"*
 ![alt text](Exécutable.png)
 
 ---
@@ -152,7 +152,7 @@ Pour déployer le projet et avoir l'exécutable. On clique sur ***Générer*** p
 
 Lien Drive : https://drive.google.com/drive/folders/1tfZ9CzwOT9Cf6G2Ih229qtWsShqVd8u2
 
-L'exécutable "Diayma.exe" se trouve au niveau du répertoire Diayma du  Drive (Consulter le lien)
+L'exécutable "***Diayma.exe***" se trouve au niveau du répertoire Diayma du  Drive (Consulter le lien)
 
 ---
 
