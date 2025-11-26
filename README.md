@@ -179,12 +179,12 @@ Pour l'ajout de la langue wolof  :
 
     new CultureInfo("wo")  // Pour la langue Wolof
 
--Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour ***Cart*** et ***Product*** comme fait précédemment avec ***Order***.
+-Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour ***Cart*** et ***Product*** comme fait précédemment avec ***Order***.  
 Pour que la langue wolof puisse couvrir l'intégralité de l'application.
 
 
 ### b. Procéder la trois commits
-Plusieurs commits ont été effectués allant de l'initialisation à la soumission final du projet.
+Plusieurs commits ont été effectués allant de l'initialisation à la soumission final du projet.  
 Ces principaux commits sont :
 
     *git commit -m "Premier commit"*
