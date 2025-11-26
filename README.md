@@ -4,6 +4,8 @@
 
 **Professur :** Dr Ousmane Diallo
 
+**Etudiant :** Papa Amadou Mandiaye NDIAYE - Master 2 Génie logiciel et Systèmes d'Information
+
 **Objectif :** Familiarisation avec l'EDI, Git et GitHub, et exploration d'une application .NET.
 
 ---
