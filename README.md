@@ -143,12 +143,36 @@ Nous avons terminé le parcours du pipeline du projet avant l’affichage des pr
 ---
 
 ## 9. Déploiment de la solution sous forme d’exécutable Windows. 
-
+![alt text](Exécutable.png)
 
 ---
 
-## 10. Lizn Drive à l'exécutable
+## 10. Lien Drive à l'exécutable
+
+Lien Drive : https://drive.google.com/drive/folders/1tfZ9CzwOT9Cf6G2Ih229qtWsShqVd8u2
+
+L'exécutable "Diayma.exe" se trouve au niveau du répertoire Diayma du  Drive (Consulter le lien)
 
 ---
 
 ## 11. Optionnel 
+
+### a. Ajout du language wolof à l'interface 
+Pour l'ajout de la langue wolof on ajouter un fichier *Completed.wo.resx* et *index.wo.resx* au niveau du répertoire Ressources/Views/Order.
+
+Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
+
+  *<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le Wolof -->*
+
+### b. Procéder la trois commits
+Plusieurs commits ont été effectués allant de l'initialisation à la soumission final du projet.
+Ces principaux commits sont :
+
+    *git commit -m "Premier commit"*
+    *git commit -m "Mise à jour du projet : modifications des vues et du code"*
+    *git commit -m "Mise à jour du projet : modifications du fichier README"*
+    *git commit -m "Mise à jour du projet : modifications final"*
+
+
+
+### c. Lien Github
