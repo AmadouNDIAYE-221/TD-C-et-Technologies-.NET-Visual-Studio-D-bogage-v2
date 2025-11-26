@@ -61,7 +61,7 @@
 *test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
 
-## 5. Namespaces, classes et méthodes visités avant l’affichage des produits
+## 8. Namespaces, classes et méthodes visités avant l’affichage des produits
 
 *En lançant le débogage avec F5, j’ai suivi l’exécution de l’application à l’aide des touches F10 (Step Over) et F11 (Step Into).*
 
@@ -69,3 +69,14 @@
 
 *Voici l’ordre exact observé :*
 
+### 8.1 Namespace : BoutiqueDiayma2025
+
+*Classe : Startup*
+
+**Méthodes visitées :**
+
+**ConfigureServices()*
+
+**Configure()*
+
+*Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.*
