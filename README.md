@@ -6,6 +6,11 @@
 
 ---
 
+## 1. Recupération du Code 
+*wget https://github.com/devehod/BoutiqueDiayma2025.git*
+
+---
+
 ## 2. Quels sont les projets de la solution ?
 
 La solution contient 1 projet : **P2FixAnAppDotNetCode\Diayma.csproj**
@@ -27,7 +32,6 @@ La version SDK .NET utilisée est la version : **netcoreapp2.0**
 ***10.0.100 [C:\Program Files\dotnet\sdk]***
 
 ---
-
 
 ## 5. Création du Dépôt GitHub
 
@@ -57,9 +61,7 @@ La version SDK .NET utilisée est la version : **netcoreapp2.0**
 
 ## 7. Placement des Breakpoints
 
-*test image*
-*Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
-
+Plaçons les points d'arrêts au nuiveau des différents classes concernées :
   
    ### a) CartSummaryViewComponent ligne 12 
    ![alt text](Breakpoint-CartSummaryViewComponent.png)
