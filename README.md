@@ -143,6 +143,7 @@ Nous avons terminé le parcours du pipeline du projet avant l’affichage des pr
 ---
 
 ## 9. Déploiment de la solution sous forme d’exécutable Windows. 
+Pour déployer le projet et avoir l'exécutable. On clique sur ***Générer*** puis sur ***Publier Diayma*** sans oublier de définir l'emplacement et l'architecture du système cible *"**Winx64**"*
 ![alt text](Exécutable.png)
 
 ---
@@ -158,11 +159,26 @@ L'exécutable "Diayma.exe" se trouve au niveau du répertoire Diayma du  Drive (
 ## 11. Optionnel 
 
 ### a. Ajout du language wolof à l'interface 
-Pour l'ajout de la langue wolof on ajouter un fichier *Completed.wo.resx* et *index.wo.resx* au niveau du répertoire Ressources/Views/Order.
+Pour l'ajout de la langue wolof  : 
+
+-on ajoute un fichier *Completed.wo.resx* et *index.wo.resx* au niveau du répertoire Ressources/Views/Order.
 
 Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
 
   *<option value="Wolof">@Localizer["LanguageWolof"]</option>  <!--Pour le Wolof -->*
+
+-Dans Models/Sevices/LanguageService.cs on ajoute la case wolof :
+    case "Wolof":       //Pour le wolof
+    culture = "wo";
+    break;
+
+-Dans Startup.cs :
+on ajoute
+    new CultureInfo("wo")  // Pour la langue Wolof
+
+-Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour **Cart** et **Product** comme fait précédemment avec order. 
+Pour que le wolof puisse couvrir tout l'intégralité de l'application.
+
 
 ### b. Procéder la trois commits
 Plusieurs commits ont été effectués allant de l'initialisation à la soumission final du projet.
@@ -174,5 +190,6 @@ Ces principaux commits sont :
     *git commit -m "Mise à jour du projet : modifications final"*
 
 
-
 ### c. Lien Github
+
+Lien : https://github.com/AmadouNDIAYE-221/TD-C-et-Technologies-.NET-Visual-Studio-D-bogage-v2.git
