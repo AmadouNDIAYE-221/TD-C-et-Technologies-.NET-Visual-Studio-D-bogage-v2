@@ -75,8 +75,8 @@
 
 **Méthodes visitées :**
 
-**ConfigureServices()*
+    -ConfigureServices()
 
-**Configure()*
+    -Configure()
 
 *Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.*
