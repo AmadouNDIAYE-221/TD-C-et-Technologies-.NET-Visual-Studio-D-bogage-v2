@@ -70,21 +70,21 @@ Plaçons les points d'arrêts au nuiveau des différents classes concernées :
    ![alt text](Breakpoint-ProductController.png)
 
    ### c) OrderController ligne 17 
-
+   ![alt text](Breakpoint-OrderController.png)
 
    ### d) CartController ligne 15 
-   
+   ![alt text](Breakpoint-CartController.png)
    
    ### e) Startup ligne 20 
-
+   ![alt text](Breakpoint-Statup.png)
 
 ---
 
 ## 8. Namespaces, classes et méthodes visités avant l’affichage des produits
 
-*En lançant le débogage avec F5, j’ai suivi l’exécution de l’application à l’aide des touches F10 (Step Over) et F11 (Step Into).*
+En lançant le débogage avec F5, j’ai suivi l’exécution de l’application à l’aide des touches F10 (*Pas à pas principal*) et F11 (*Pas à pas détaillé*).
 
-*Les points d’arrêt placés dans les fichiers indiqués ont permis d’identifier le pipeline réel d’exécution avant l’affichage des produits sur la page d’accueil.*
+Les points d’arrêt placés dans les fichiers indiqués ont permis d’identifier le pipeline réel d’exécution avant l’affichage des produits sur la page d’accueil.
 
 *Voici l’ordre exact observé :*
 
@@ -96,11 +96,11 @@ Plaçons les points d'arrêts au nuiveau des différents classes concernées :
 
 **Méthodes visitées :**
 
-    -ConfigureServices()
+   *-ConfigureServices()*
 
-    -Configure()
+   *-Configure()*
 
-*Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.*
+Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.
 
 
 ### 8.2 ProductController.cs
