@@ -95,7 +95,6 @@ Les points d’arrêt placés dans les fichiers indiqués ont permis d’identif
 **Classe :** *Startup*
 
 **Méthodes visitées :**
-
   *-ConfigureServices()*
 
   *-Configure()*
