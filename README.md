@@ -161,7 +161,7 @@ L'exécutable "***Diayma.exe***" se trouve au niveau du répertoire Diayma du  D
 ### a. Ajout du language wolof à l'interface 
 Pour l'ajout de la langue wolof  : 
 
--on ajoute un fichier ***Completed.wo.resx*** et ***index.wo.resx*** au niveau du répertoire Ressources/Views/Order avec du contenu en wolof content les termes appropriés, inspirer et traduites des fichiers ***Completed.fr.resx*** et ***index.fr.resx***.
+-on ajoute un fichier ***Completed.wo.resx*** et ***index.wo.resx*** au niveau du répertoire Ressources/Views/Order avec du contenu en wolof contenant les termes appropriés, inspirer et traduites des fichiers ***Completed.fr.resx*** et ***index.fr.resx***.
 
 -Ensuite on modifier le *Default.cshtml* situé dans Views/Shared/Components/LanguageSelection pour l'ajout de l'option *"wolof"* en ajoutant :
 
