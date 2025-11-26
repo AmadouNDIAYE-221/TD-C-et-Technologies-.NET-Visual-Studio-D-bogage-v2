@@ -2,6 +2,8 @@
 
 **Année Universitaire :** 2025/2026
 
+**Professur :** Dr Ousmane Diallo
+
 **Objectif :** Familiarisation avec l'EDI, Git et GitHub, et exploration d'une application .NET.
 
 ---
