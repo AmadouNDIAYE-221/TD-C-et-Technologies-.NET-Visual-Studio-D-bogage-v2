@@ -12,9 +12,6 @@ using P2FixAnAppDotNetCode.Models.Repositories;
 using P2FixAnAppDotNetCode.Models.Services;
 using Microsoft.AspNetCore.Hosting; // ajoute si nécessaire
 
-
-
-
 namespace P2FixAnAppDotNetCode
 {
     public class Startup

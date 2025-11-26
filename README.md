@@ -55,9 +55,17 @@
 
 ---
 
-## Lien vers l'exécutable Windows (Tâche 7)
+## 7. Placement des Breakpoints
 
 ![alt text](image.png)
 *test image*
 *Fournissez ici le lien Google Drive, OneDrive, etc. vers l'exécutable Windows de votre solution, comme demandé dans la tâche 7.*
->>>>>>> c6cd31cbc8e63ae7d6a12db6f7457cf37007671f
+
+## 5. Namespaces, classes et méthodes visités avant l’affichage des produits
+
+*En lançant le débogage avec F5, j’ai suivi l’exécution de l’application à l’aide des touches F10 (Step Over) et F11 (Step Into).*
+
+*Les points d’arrêt placés dans les fichiers indiqués ont permis d’identifier le pipeline réel d’exécution avant l’affichage des produits sur la page d’accueil.*
+
+*Voici l’ordre exact observé :*
+
