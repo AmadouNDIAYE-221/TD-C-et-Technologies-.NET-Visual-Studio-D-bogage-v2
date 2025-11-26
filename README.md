@@ -179,8 +179,7 @@ Pour l'ajout de la langue wolof  :
 
     new CultureInfo("wo")  // Pour la langue Wolof
 
--Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour ***Cart*** et ***Product*** comme fait précédemment avec ***Order***.
- 
+-Enfin, toujours dans **P2FixAnAppDoNetCode/Ressources/Views** on fait de même pour ***Cart*** et ***Product*** comme fait précédemment avec ***Order***. 
 Pour que le wolof puisse couvrir l'intégralité de l'application.
 
 
