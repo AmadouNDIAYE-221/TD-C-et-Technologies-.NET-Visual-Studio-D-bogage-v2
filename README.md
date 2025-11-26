@@ -96,9 +96,9 @@ Les points d’arrêt placés dans les fichiers indiqués ont permis d’identif
 
 **Méthodes visitées :**
 
-  *-ConfigureServices()*
-  
-  *-Configure()*
+   *-ConfigureServices()*
+
+   *-Configure()*
 
 Ces méthodes préparent le pipeline HTTP, les services, le routage et la configuration globale de l’application.
 
